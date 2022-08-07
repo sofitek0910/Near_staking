@@ -32,7 +32,6 @@ const How: FunctionComponent = (props) => {
   let prev = _amount;
   let otherPrev = _amount;
   for (let i = 1; i <= 10; i++) {
-    // const val = floor(prev * (1 + apy / 100)) * (1 + (Math.random() - 0.5) / 10);
     // const otherVal = floor(otherPrev * (1 + otherApy / 100)) * (1 + (Math.random() - 0.5) / 10);
     const val = floor(prev * (1 + apy / 100));
     const otherVal = floor(otherPrev * (1 + otherApy / 100));
